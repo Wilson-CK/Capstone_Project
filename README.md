@@ -1,8 +1,11 @@
-### Project Title
+### Using Machine Learning Analysis to Detect Spam Messages
 
-**Author**
+By Wilson Cheng
 
 #### Executive summary
+
+In this project, we explore the application of machine learning (ML) analysis to enhance email filtering systems by effectively distinguishing between spam and non-spam messages. Leveraging advanced algorithms, our goal is to improve accuracy and efficiency compared to traditional filtering methods.
+
 
 #### Rationale
 Why should anyone care about this question?
