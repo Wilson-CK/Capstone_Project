@@ -16,7 +16,7 @@ Could ML analysis effectively distinguish between spam and ham messages to enhan
 I utilized a diverse dataset containing over 5,000 spam and ham messages, curated by the public domain and available for reference on [Kaggle](https://www.kaggle.com/code/abdallahwagih/spam-emails-detection-using-naive-bayes) (also uploaded to my [GitHub](https://github.com/Wilson-CK/Capstone_Project/blob/main/spam.csv)). The dataset was carefully selected to encompass various characteristics and content types commonly found in real-world communication. This comprehensive dataset served as the foundation for training and evaluating my ML models.
 
 #### Methodology
-My methodology involved the application of salient ML algorithms, including the following to train and test models on the curated dataset:
+My methodology involved the application of the following salient ML algorithms to train and test models on the curated dataset:
 * Logistic Regression
 * K-Nearest Neighbor
 * Decision Trees
