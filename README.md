@@ -13,14 +13,14 @@ The significance of this project lay in addressing the ongoing challenge of spam
 Could ML analysis effectively distinguish between spam and ham messages to enhance spam filtering systems?
 
 #### Data Sources
-I utilized a diverse dataset containing over 5,000 spam and ham messages, curated by the public domain and available for reference on Kaggle. The dataset was carefully selected to encompass various characteristics and content types commonly found in real-world communication. This comprehensive dataset served as the foundation for training and evaluating my ML models.
+I utilized a diverse dataset containing over 5,000 spam and ham messages, curated by the public domain and available for reference on [Kaggle](https://www.kaggle.com/code/abdallahwagih/spam-emails-detection-using-naive-bayes) (also uploaded to my [GitHub](https://github.com/Wilson-CK/Capstone_Project/blob/main/spam.csv)). The dataset was carefully selected to encompass various characteristics and content types commonly found in real-world communication. This comprehensive dataset served as the foundation for training and evaluating my ML models.
 
 #### Methodology
 My methodology involved the application of salient ML algorithms, including the following to train and test models on the curated dataset:
 * Logistic Regression
 * K-Nearest Neighbor
 * Decision Trees
-* Multinomial Naïve Bayes
+* Multinomial NaÃ¯ve Bayes
 * Support Vector Machine (SVM) Classifier
 * Stochastic Gradient Descent (SGD) Classifier
 * Ridge Classifier
@@ -29,6 +29,8 @@ Cross-validation techniques were employed for robust evaluation, and hyperparame
 
 #### Results
 My research findings indicated promising results in the effective distinction between spam and ham messages. ML models showcased notable improvements in accuracy and efficiency compared to traditional spam filtering systems. The F1 score, considering both precision and recall, highlighted the models' robustness in dealing with false positives and false negatives, essential factors in spam detection.
+
+The **Ridge Classifier** model emerged as the clear winner, attaining nearly perfect results with 99.9% train accuracy and 98.1% test accuracy. It also showcased a low false positive rate of only 0.01%, demonstrating robust performance without succumbing to overfitting.
 
 #### Next steps
 1. Refine the codebase for enhanced clarity and ensure the project's presentation caters to both technical and non-technical audiences.
