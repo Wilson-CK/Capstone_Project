@@ -35,11 +35,13 @@ In simpler terms, it showed how accurately the models identified spam while also
 The **Ridge Classifier** model emerged as the clear winner, attaining nearly perfect results with 99.9% train accuracy and 98.1% test accuracy. It also showcased a low false positive rate of only 0.01%, demonstrating robust performance without succumbing to overfitting (where the model becomes overly tailored to the training data and performs poorly on new, unseen data).
 
 #### Next steps
-1. Refine the codebase for enhanced clarity and ensure the project's presentation caters to both technical and non-technical audiences.
+1. Explore additional ML algorithms, deep neural networks, and ensemble techniques to further refine and improve spam detection capabilities.
 2. Implement the ML models into existing spam filtering systems for real-world testing and validation.
-3. Continuously update and retrain models with new data to adapt to evolving spam patterns.
-4. Explore additional ML algorithms, deep neural networks, and ensemble techniques to further refine and improve spam detection capabilities.
-5. Collaborate with cybersecurity experts to assess the models' real-world effectiveness against emerging threats.
+3. Continuously update and retrain models with new data to adapt to evolving spam patterns, including emerging techniques such as image-based spam, where spammers embed text within images to evade traditional text-based filters. Additionally, consider incorporating techniques for detecting URL-based spam, where malicious links are disguised within messages. 
+4. Collaborate with cybersecurity experts to assess the models' effectiveness against emerging threats.
+5. Develop a user-friendly interface for the spam filtering system, incorporating feedback mechanisms for users to report false positives and negatives, thus improving model accuracy over time through user input.
+
+Regularly monitoring and updating the system's algorithms will be crucial in staying ahead of evolving spam tactics.
 
 #### Outline of project
 
