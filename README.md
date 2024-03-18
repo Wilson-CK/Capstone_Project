@@ -29,7 +29,9 @@ Cross-validation techniques were employed for robust evaluation, and hyperparame
 
 #### Results
 My research findings indicated promising results in the effective distinction between spam and ham messages. ML models showcased notable improvements in accuracy and efficiency compared to traditional spam filtering systems. The high F1 score, which combines precision and recall, highlighted how well the models dealt with two critical aspects of spam detection: false alarms and missed threats.
+
 In simpler terms, it showed how accurately the models identified spam while also ensuring they didn't overlook important messages or wrongly label them as spam. This balance is crucial for maintaining trust in the filtering system and ensuring that legitimate business communications aren't mistakenly flagged as spam.
+
 The **Ridge Classifier** model emerged as the clear winner, attaining nearly perfect results with 99.9% train accuracy and 98.1% test accuracy. It also showcased a low false positive rate of only 0.01%, demonstrating robust performance without succumbing to overfitting (where the model becomes overly tailored to the training data and performs poorly on new, unseen data).
 
 #### Next steps
